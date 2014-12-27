@@ -10,7 +10,8 @@
 		"postinstall": "node installPrettify.js"
 	},
 	"devDependencies": {
-		"grunt": "~0.4.0"
+		"grunt": "~0.4.0",
+                "ink-docstrap":"0.4.12"
 	},
 	"licenses": [
 		{
