@@ -4,7 +4,8 @@
 	"dependencies": {
 		"jsdoc": "https://github.com/jsdoc3/jsdoc/archive/v3.3.0-alpha7.tar.gz",
 		"taffydb": "https://github.com/hegemonic/taffydb/tarball/master",
-		"catharsis": "~0.7.1"
+		"catharsis": "~0.7.1",
+		"ink-docstrap": "0.4.12"
 	},
 	"scripts": {
 		"postinstall": "node installPrettify.js"
