@@ -1,6 +1,6 @@
 {
     "opts": {
-        "template": "templates/amddcl",
+        "template": "node_modules/ink-docstrap/template",
         "encoding": "utf8"
     },
     "tags": {
