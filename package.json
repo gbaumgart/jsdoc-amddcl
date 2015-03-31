@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"grunt": "~0.4.0",
-                "ink-docstrap":"0.4.12"
+                "ink-docstrap":"0.5.2"
 	},
 	"licenses": [
 		{
