@@ -5,7 +5,7 @@
 		"jsdoc": "https://github.com/jsdoc3/jsdoc/archive/3.4.0.tar.gz",
 		"taffydb": "https://github.com/hegemonic/taffydb/tarball/master",
 		"catharsis": "~0.7.1",
-		"ink-docstrap": "git://github.com/gbaumgart/docstrap#master"
+		"ink-docstrap": "git://github.com/gbaumgart/docstrap#master",
 		"underscore":"1.7.0"
 	},
 	"scripts": {
