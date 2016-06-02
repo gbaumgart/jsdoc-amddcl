@@ -2,7 +2,7 @@ module.exports = function (grunt) {
 	"use strict";
 
 	var path = require("path"),
-		exec = require("child_process").exec;
+			exec = require("child_process").exec;
 
 	grunt.registerMultiTask("jsdoc-amddcl", "Run JSDoc", function () {
 		var done = this.async();
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 				process.env.INCLUDE_EVENTS_IN_TOC = file.includeEventsInTOC;
 			}
 			var args = [
-				JSON.stringify(path.resolve(path.dirname(module.filename), "../node_modules/jsdoc/jsdoc.js")),
+				JSON.stringify(path.resolve(path.dirname(module.filename), "../../jsdoc/jsdoc.js")),
 				"-c",
 				"./node_modules/jsdoc-amddcl/conf.json"
 			];
